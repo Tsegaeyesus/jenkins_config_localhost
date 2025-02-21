@@ -1,0 +1,395 @@
+credentials:
+  system:
+    domainCredentials:
+    - credentials:
+      - usernamePassword:
+          description: "eslsoftdev"
+          id: "eslsoftdev"
+          password: "{AQAAABAAAAAwdTmXsGXS+5FiQvEcEgLCYJZybFgLGCLeCdFDjX18E77QHzeq7GYkL4w142ascADEo6qL3Pkyhi0S2FkhNiC+uQ==}"
+          scope: GLOBAL
+          username: "eslsoftdev2024@gmail.com"
+          usernameSecret: true
+      - usernamePassword:
+          id: "61027fbd-cabe-4bce-bb69-aae3376b096c"
+          password: "{AQAAABAAAAAQnfOr91877D+CZ5mW5cTzXYWsHwrGAt2LWt2QTAefZMY=}"
+          scope: GLOBAL
+          username: "eslsoftdev2024@gmail.com"
+      - usernamePassword:
+          description: "eslsoftdev1"
+          id: "eslsoftdev1"
+          password: "{AQAAABAAAAAwnKb3HncF0valBVKO1c9Wb98UX59FMLP5qZQaiADgmOFr1o4WzrpoBMSsKsX2073MLOGIUFqLZUCXpLek0VwUCw==}"
+          scope: GLOBAL
+          username: "eslsoftdev2024@gmail.com"
+          usernameSecret: true
+      - basicSSHUserPrivateKey:
+          description: "eslsoftdevssh"
+          id: "eslsoftdevssh"
+          privateKeySource:
+            directEntry:
+              privateKey: "{AQAAABAAAAGwZSow6cxf1hgtMy6CZFMh+Rg05NpY4aFHt7hXYhl+J4Hl4CtV6t4YrlmmoGJSALkax31fiGMVZbnHImh92UgRxu0HJ1H70WAM2gDWae5h3pqWz/OEFMOnsLj+ff4wqLL+ZXsN5gzz9Z4BrNjUgVkCRugwR/9lwpXTOsxSkSTHqY0TDhy1eUh8XPsWy7GJLLDPeXmgN2bJm5pkD2QaLyPArDNriifalt/04EkDrbVFsWYbozVx8YD1014xNxJijttqbPsoAJ9geBpUf6gjEc7wfCyvqkSEqclwDRfwDa4VAARK8M6+SkX1drjn5aHwRWD3/aEUSmk/YAM4ve3tSJvtjR2HlZUY7ZWSC8KIYxskoOydBFfQUvGIMXt2TY4Oo/jqZLNbgPxpgbbOLRy3XWlbQ1yrotDGZsHgKpO6GP7Lc1+XOvdCIe/QyloEgH+wJXyBgIzMRM16LQ8ZvrsN609bKu5S1zJ8FjarGdi7LFlQrkInIz5qKaKoOk8IRYE8JmSet9bi7CDKPRGWJK88ytC05THDVr/4XKDWCNanlGmzIbOciRfCtg5j3k1buYZuLQrEpCtPhpfSN4VDbRiZQlugqw==}"
+          scope: GLOBAL
+          username: "eslsoftdev2024@gmail.com"
+          usernameSecret: true
+      - string:
+          description: "JWT_SECRET_DEV"
+          id: "JWT_SECRET_DEV"
+          scope: GLOBAL
+          secret: "{AQAAABAAAABwjBWAxHjFam3mdnDIBrNVBW26XP0OCRt+m7QzJCeFCVvOBpJho3R0KsYfqR0HJiQBB4Vx+4tHVx/iWUqgZsko2S+vd0kDlvNMxxmq+sltOlvBay9OifBb/v70ACpqpYp46jKwGyolfG9A4T/tInKO5+nbwtKZhSjpiJ34MflER+w=}"
+      - string:
+          description: "DB_URL_DEV"
+          id: "DB_URL_DEV"
+          scope: GLOBAL
+          secret: "{AQAAABAAAAAwR432pN0N5g6Js6nW0LJDQ2ELQ/7zeBDltNhkTS0kAA1ncnRDCILHMo9fpUM/oeRJajdtCXw3l2AL3TACgTKVMw==}"
+      - string:
+          description: "DB_USER_DEV"
+          id: "DB_USER_DEV"
+          scope: GLOBAL
+          secret: "{AQAAABAAAAAQJ98X6PrssUoAadpzJI63iNq76qST0TJuKeSH40uux0c=}"
+      - string:
+          description: "DB_PASSWORD_DEV"
+          id: "DB_PASSWORD_DEV"
+          scope: GLOBAL
+          secret: "{AQAAABAAAAAQgJ682R58M58EfMXzFRF7+XzJWIqjv1wq8o883yxMle4=}"
+      - string:
+          description: "JWT_EXPIRATION_DEV"
+          id: "JWT_EXPIRATION_DEV"
+          scope: GLOBAL
+          secret: "{AQAAABAAAAAQF27AeJ257t8Tbwp94EVBSVjmiyR3dgKxOppsC8cdxZM=}"
+      - string:
+          description: "DB_URL_TEST"
+          id: "DB_URL_TEST"
+          scope: GLOBAL
+          secret: "{AQAAABAAAAAwWMr27FEL9daFosqIRGIXzCqppkUlcEyRevMJdbA5oSzpvr8I24Q6HPKb3cvcfCgFZxxa0rxmqQEAFHCIdkOPgw==}"
+      - string:
+          description: "DB_USER_TEST"
+          id: "DB_USER_TEST"
+          scope: GLOBAL
+          secret: "{AQAAABAAAAAQc1CFMSJzIWNWesY60IDSUM0p/Z+JLd7JwmRSHzkH7y4=}"
+      - string:
+          description: "DB_PASSWORD_TEST"
+          id: "DB_PASSWORD_TEST"
+          scope: GLOBAL
+          secret: "{AQAAABAAAAAQg/+m2MeXiqO+k4AJNGEM0euAQ88GYegavif5wJmEEP4=}"
+      - string:
+          description: "JWT_SECRET_TEST"
+          id: "JWT_SECRET_TEST"
+          scope: GLOBAL
+          secret: "{AQAAABAAAABwVwRIFLZCG9NMNaNP6vPtXLf2wA8ybxY2ErRSJFvEmbAHpC8xJW33tuthPV0iR8CbJFxD6JrYnaT/LWrOtjaKfEfg/RxRKnNiOHiS9ZXc4bs46kxFMjy8RNps1GhGSk1xszFKZQYztoE8csshh0uBoKH4hFl1EmylUAy8znxqWUQ=}"
+      - string:
+          description: "JWT_EXPIRATION_TEST"
+          id: "JWT_EXPIRATION_TEST"
+          scope: GLOBAL
+          secret: "{AQAAABAAAAAQ9+d2rWKsr+sbShXoXJjkAzZIaC4N2pFPlAwHPiacrfk=}"
+      - string:
+          description: "DB_URL_PROD"
+          id: "DB_URL_PROD"
+          scope: GLOBAL
+          secret: "{AQAAABAAAAAwwvN6izmo5eaPpQ0enJQfhD8PTIWiyaHNyt/EA0tqfhljTCspzPBGwOwirtNdjz7HbzzexQa+g20qTzNiHz/Tvg==}"
+      - string:
+          description: "DB_USER_PROD"
+          id: "DB_USER_PROD"
+          scope: GLOBAL
+          secret: "{AQAAABAAAAAQ8xWoB2BrzSa03BSxPa30IyuhwFNUWKcCkETmv/ljbT8=}"
+      - string:
+          description: "DB_PASSWORD_PROD"
+          id: "DB_PASSWORD_PROD"
+          scope: GLOBAL
+          secret: "{AQAAABAAAAAQDrb61/HkX92ku0UR1ZyZWRE31NFNvfiE/ve+S1Y8+JU=}"
+      - string:
+          description: "JWT_SECRET_PROD"
+          id: "JWT_SECRET_PROD"
+          scope: GLOBAL
+          secret: "{AQAAABAAAABw9wqnzDJO4kWXLpf9CfJRQYWIIECzy3xaD+uHCQWFvyZzqedQpPkIF+mJ7BwdDK63Lvbt/U21mrgcO9SXYMLrlU83xiXcZZkE2HNjaVLE12zHShkaRxRu75U5xSQBSRjbS93cNIna556h09+2hJsaJ1HITno+whMUgPDg75Shz7c=}"
+      - string:
+          description: "JWT_EXPIRATION_PROD"
+          id: "JWT_EXPIRATION_PROD"
+          scope: GLOBAL
+          secret: "{AQAAABAAAAAQx666r//pBdBrzyRIjdRpPTdwoJ8wxy0x2JHAg5c2Jkg=}"
+      - string:
+          description: "FUSION_USERNAME_TEST"
+          id: "FUSION_USERNAME_TEST"
+          scope: GLOBAL
+          secret: "{AQAAABAAAAAg7f5T62AbSW8FcC3YGSJWJ2TW3m06Ox8rtnpL8mGlNqM069zk6ReoWegqTg/hCMN7}"
+      - string:
+          description: "FUSION_PASSWORD_TEST"
+          id: "FUSION_PASSWORD_TEST"
+          scope: GLOBAL
+          secret: "{AQAAABAAAAAQkd9dO5rFzMuB9xnbSGlSHWu9W9tnGe0vp+qeQi1Ss9I=}"
+      - string:
+          description: "SSL_KEYSTORE_LOCATION_TEST"
+          id: "SSL_KEYSTORE_LOCATION_TEST"
+          scope: GLOBAL
+          secret: "{AQAAABAAAAAwvR6lDYbwtaRGvW6WOgFZp5pn6O4rHrFFcI+5ypn2fgzzs0UaVn3s8gUHvv0AWdbmtIuNvAEuSDrDHNcnJO9KuQ==}"
+      - string:
+          description: "SSL_KEYSTORE_PASSWORD_TEST"
+          id: "SSL_KEYSTORE_PASSWORD_TEST"
+          scope: GLOBAL
+          secret: "{AQAAABAAAAAQBC0ecvmzKWXK4/9JUjciQjVLALq8ySebDiLX7ijtXnk=}"
+      - string:
+          description: "SSL_KEYSTORE_ALIAS_TEST"
+          id: "SSL_KEYSTORE_ALIAS_TEST"
+          scope: GLOBAL
+          secret: "{AQAAABAAAAAQjZJDsy5ZwzQwy68HlaMj/wnV1uH+eO9fvqImh+GFk70=}"
+      - string:
+          description: "SSL_TRUSTSTORE_LOCATION_TEST"
+          id: "SSL_TRUSTSTORE_LOCATION_TEST"
+          scope: GLOBAL
+          secret: "{AQAAABAAAAAg9yYVE6B/MhCGEOf7pQ+53QGqQVs1nSvyFzonpBVgh22Wp9ApBMUk8mvHzTvydakA}"
+      - string:
+          description: "SSL_KEYSTORE_TYPE_TEST"
+          id: "SSL_KEYSTORE_TYPE_TEST"
+          scope: GLOBAL
+          secret: "{AQAAABAAAAAQZz6TSIgCjbvShkb/6ywhuICjbQtQHTf7nw32a7RtA48=}"
+      - string:
+          description: "FUSION_USERNAME_DEV"
+          id: "FUSION_USERNAME_DEV"
+          scope: GLOBAL
+          secret: "{AQAAABAAAAAgOzXKSKgjhd6jNSXX9oj0qGGRbOzgrSjaI1EnoE1gyDeLwqwGdG440GYOiruGo1t2}"
+      - string:
+          description: "FUSION_PASSWORD_DEV"
+          id: "FUSION_PASSWORD_DEV"
+          scope: GLOBAL
+          secret: "{AQAAABAAAAAQmoVxtk710Td+OkU9lkNnVYj/3tHcegPv/R1GuSFWmHs=}"
+      - string:
+          description: "FUSION_PASSWORD_PROD"
+          id: "FUSION_PASSWORD_PROD"
+          scope: GLOBAL
+          secret: "{AQAAABAAAAAgHUwTBdziTtoGO2irEu62qtQHxuDJHiA18HZnjsb6bKibkr/9A2wBEva2FycAyWKu}"
+      - string:
+          description: "FUSION_USERNAME_PROD"
+          id: "FUSION_USERNAME_PROD"
+          scope: GLOBAL
+          secret: "{AQAAABAAAAAgFh2ilgXzRSTsuNEEljgvNkcTpKpHsclqm8156iITj6uwbT9LNKLwHuWN3ojj9Xe8}"
+      - string:
+          description: "SSL_KEYSTORE_LOCATION_DEV"
+          id: "SSL_KEYSTORE_LOCATION_DEV"
+          scope: GLOBAL
+          secret: "{AQAAABAAAAAwosJG/9EAlohTZU1DZ34pniLsq2Zn4wNBPx3cGBdc7XG66zFaIGjPq5iPFnaHiOAft+HTpa8Boww7jdPxPwtkRQ==}"
+      - string:
+          description: "SSL_KEYSTORE_PASSWORD_DEV"
+          id: "SSL_KEYSTORE_PASSWORD_DEV"
+          scope: GLOBAL
+          secret: "{AQAAABAAAAAQQySl4Ql1MkvVeA+w4PsNQU2m4LK906zWHhCerWwzK2M=}"
+      - string:
+          description: "SSL_KEYSTORE_TYPE_DEV"
+          id: "SSL_KEYSTORE_TYPE_DEV"
+          scope: GLOBAL
+          secret: "{AQAAABAAAAAQUDmXGRLxu6hknFVZtO39uPAzHvQ8avxVIJ2Fea/v/D0=}"
+      - string:
+          description: "SSL_KEYSTORE_ALIAS_DEV"
+          id: "SSL_KEYSTORE_ALIAS_DEV"
+          scope: GLOBAL
+          secret: "{AQAAABAAAAAQCGvyyIw64583/PNp6+UYEqZpLBlnjGpPbLklcup3AUE=}"
+      - string:
+          description: "SSL_TRUSTSTORE_LOCATION_DEV"
+          id: "SSL_TRUSTSTORE_LOCATION_DEV"
+          scope: GLOBAL
+          secret: "{AQAAABAAAAAgaaQbWa5GjiCfYeFzXHooLkloHm1RZlKqoCdGOjP2ObggP7f3jzWtT8NADltmI3Q5}"
+      - string:
+          description: "SSL_KEYSTORE_LOCATION_PROD"
+          id: "SSL_KEYSTORE_LOCATION_PROD"
+          scope: GLOBAL
+          secret: "{AQAAABAAAAAwR73QpTWhpZMYA07SZbT7Q2J67MQXbUxL9mTR6C4qlfVvx96v+S38KRB50od1zRPqP23SeKyvfl+cqifcVHo8QQ==}"
+      - string:
+          description: "SSL_KEYSTORE_PASSWORD_PROD"
+          id: "SSL_KEYSTORE_PASSWORD_PROD"
+          scope: GLOBAL
+          secret: "{AQAAABAAAAAQ2EF5BRgT6qEe1PocQRIRpCId8S2vyLvLARure5jIapk=}"
+      - string:
+          description: "SSL_KEYSTORE_TYPE_PROD"
+          id: "SSL_KEYSTORE_TYPE_PROD"
+          scope: GLOBAL
+          secret: "{AQAAABAAAAAQ7Qp2x8OAEOW32S05gSWfUR799Uafe+xLJWOilASKh6k=}"
+      - string:
+          description: "SSL_KEYSTORE_ALIAS_PROD"
+          id: "SSL_KEYSTORE_ALIAS_PROD"
+          scope: GLOBAL
+          secret: "{AQAAABAAAAAQ7QyUATe1FAAjkaqkMEGS46uhpeu35Hx89frgSCtYJzQ=}"
+      - string:
+          description: "SSL_TRUSTSTORE_LOCATION_PROD"
+          id: "SSL_TRUSTSTORE_LOCATION_PROD"
+          scope: GLOBAL
+          secret: "{AQAAABAAAAAgt9iVgelCIiZzPXoblsFEETyIiuSa02R3yqr0xMo4+x8sIV6MUYh+Rt6WEIKj6WG1}"
+jenkins:
+  authorizationStrategy:
+    loggedInUsersCanDoAnything:
+      allowAnonymousRead: false
+  crumbIssuer:
+    standard:
+      excludeClientIPFromCrumb: false
+  disableRememberMe: false
+  disabledAdministrativeMonitors:
+  - "jenkins.diagnostics.ControllerExecutorsNoAgents"
+  - "hudson.util.DoubleLaunchChecker"
+  - "hudson.diagnosis.ReverseProxySetupMonitor"
+  labelAtoms:
+  - name: "built-in"
+  markupFormatter: "plainText"
+  mode: NORMAL
+  myViewsTabBar: "standard"
+  nodeMonitors:
+  - "architecture"
+  - "clock"
+  - diskSpace:
+      freeSpaceThreshold: "1GiB"
+      freeSpaceWarningThreshold: "2GiB"
+  - "swapSpace"
+  - tmpSpace:
+      freeSpaceThreshold: "1GiB"
+      freeSpaceWarningThreshold: "2GiB"
+  - "responseTime"
+  numExecutors: 2
+  primaryView:
+    all:
+      name: "all"
+  projectNamingStrategy: "standard"
+  quietPeriod: 5
+  remotingSecurity:
+    enabled: true
+  scmCheckoutRetryCount: 0
+  securityRealm:
+    local:
+      allowsSignup: false
+      enableCaptcha: false
+      users:
+      - id: "tsegag"
+        name: "Tsegaeyesus"
+        properties:
+        - "apiToken"
+        - "consoleUrlProvider"
+        - mailer:
+            emailAddress: "tsegaeyesus.goha@gmail.com"
+        - preferredProvider:
+            providerId: "default"
+        - theme:
+            theme: "noOp"
+        - "experimentalFlags"
+  slaveAgentPort: -1
+  updateCenter:
+    sites:
+    - id: "default"
+      url: "https://updates.jenkins.io/update-center.json"
+  views:
+  - all:
+      name: "all"
+  viewsTabBar: "standard"
+globalCredentialsConfiguration:
+  configuration:
+    providerFilter: "none"
+    typeFilter: "none"
+appearance:
+  pipelineGraphView:
+    showGraphOnBuildPage: false
+    showGraphOnJobPage: false
+  prism:
+    theme: PRISM
+  themeManager:
+    disableUserThemes: false
+security:
+  apiToken:
+    creationOfLegacyTokenEnabled: false
+    tokenGenerationOnCreationEnabled: false
+    usageStatisticsEnabled: true
+  cps:
+    hideSandbox: false
+  gitHooks:
+    allowedOnAgents: false
+    allowedOnController: false
+  gitHostKeyVerificationConfiguration:
+    sshHostKeyVerificationStrategy: "acceptFirstConnectionStrategy"
+  scriptApproval:
+    forceSandbox: false
+unclassified:
+  buildDiscarders:
+    configuredBuildDiscarders:
+    - "jobBuildDiscarder"
+  buildStepOperation:
+    enabled: false
+  email-ext:
+    adminRequiredForTemplateTesting: false
+    allowUnregisteredEnabled: false
+    charset: "UTF-8"
+    debugMode: false
+    defaultBody: |-
+      $PROJECT_NAME - Build # $BUILD_NUMBER - $BUILD_STATUS:
+
+      Check console output at $BUILD_URL to view the results.
+    defaultContentType: "text/plain"
+    defaultSubject: "$PROJECT_NAME - Build # $BUILD_NUMBER - $BUILD_STATUS!"
+    defaultTriggerIds:
+    - "hudson.plugins.emailext.plugins.trigger.FailureTrigger"
+    maxAttachmentSize: -1
+    maxAttachmentSizeMb: -1
+    precedenceBulk: false
+    throttlingEnabled: false
+    watchingEnabled: false
+  enrichedSummaryConfig:
+    enrichedSummaryEnabled: false
+    httpClientDelayBetweenRetriesInSeconds: 1
+    httpClientMaxRetries: 3
+    httpClientTimeoutInSeconds: 1
+  fingerprints:
+    fingerprintCleanupDisabled: false
+    storage: "file"
+  gitHubConfiguration:
+    apiRateLimitChecker: ThrottleForNormalize
+  gitHubPluginConfig:
+    hookUrl: "http://localhost:8080/github-webhook/"
+  globalTimeOutConfiguration:
+    operations:
+    - "abortOperation"
+    overwriteable: false
+  injectionConfig:
+    allowUntrusted: false
+    checkForBuildAgentErrors: false
+    enabled: false
+    enforceUrl: false
+    gradleCaptureTaskInputFiles: true
+    injectCcudExtension: false
+    injectMavenExtension: false
+    mavenCaptureGoalInputFiles: true
+  junitTestResultStorage:
+    storage: "file"
+  location:
+    adminAddress: "address not configured yet <nobody@nowhere>"
+    url: "http://localhost:8080/"
+  mailer:
+    charset: "UTF-8"
+    useSsl: false
+    useTls: false
+  mavenModuleSet:
+    localRepository: "default"
+  pollSCM:
+    pollingThreadCount: 10
+  scmGit:
+    addGitTagAction: false
+    allowSecondFetch: false
+    createAccountBasedOnEmail: false
+    disableGitToolChooser: false
+    hideCredentials: false
+    showEntireCommitSummaryInChanges: false
+    useExistingAccountWithSameEmail: false
+  timestamper:
+    allPipelines: false
+    elapsedTimeFormat: "'<b>'HH:mm:ss.S'</b> '"
+    systemTimeFormat: "'<b>'HH:mm:ss'</b> '"
+tool:
+  git:
+    installations:
+    - home: "C:\\Program Files\\Git\\bin\\git.exe"
+      name: "Default"
+  jdk:
+    installations:
+    - home: "C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.3.9-hotspot"
+      name: "JAVA 21"
+  maven:
+    installations:
+    - name: "jenkins-maven"
+      properties:
+      - installSource:
+          installers:
+          - maven:
+              id: "3.8.8"
+  mavenGlobalConfig:
+    globalSettingsProvider: "standard"
+    settingsProvider: "standard"
