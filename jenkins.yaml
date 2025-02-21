@@ -1,17 +1,30 @@
 credentials:
   system:
     domainCredentials:
-   credentials:
+    - credentials:
       - basicSSHUserPrivateKey:
-          description: "eslsoftdevssh"
-          id: "eslsoftdevssh"
+          id: "962a9fd6-98f5-4878-abb9-f57e3010f5a4"
           privateKeySource:
             directEntry:
-              privateKey: "{AQAAABAAAAGwZSow6cxf1hgtMy6CZFMh+Rg05NpY4aFHt7hXYhl+J4Hl4CtV6t4YrlmmoGJSALkax31fiGMVZbnHImh92UgRxu0HJ1H70WAM2gDWae5h3pqWz/OEFMOnsLj+ff4wqLL+ZXsN5gzz9Z4BrNjUgVkCRugwR/9lwpXTOsxSkSTHqY0TDhy1eUh8XPsWy7GJLLDPeXmgN2bJm5pkD2QaLyPArDNriifalt/04EkDrbVFsWYbozVx8YD1014xNxJijttqbPsoAJ9geBpUf6gjEc7wfCyvqkSEqclwDRfwDa4VAARK8M6+SkX1drjn5aHwRWD3/aEUSmk/YAM4ve3tSJvtjR2HlZUY7ZWSC8KIYxskoOydBFfQUvGIMXt2TY4Oo/jqZLNbgPxpgbbOLRy3XWlbQ1yrotDGZsHgKpO6GP7Lc1+XOvdCIe/QyloEgH+wJXyBgIzMRM16LQ8ZvrsN609bKu5S1zJ8FjarGdi7LFlQrkInIz5qKaKoOk8IRYE8JmSet9bi7CDKPRGWJK88ytC05THDVr/4XKDWCNanlGmzIbOciRfCtg5j3k1buYZuLQrEpCtPhpfSN4VDbRiZQlugqw==}"
+              privateKey: "{AQAAABAAAAGwfokHIkzfFJyX8q4aT/5Ib6i7PNdcp2U4GFKrHQcddUCtjCQxeLpOqq7Z3ayDOzvRdJ/byB7GbUgwdlXw7HtElYyT8aL1qEpLMMHODuZZfTGo06zx2elY/DLLI1tECo0oLiD9yHPKBr8CFvolMibTEU4qgWj0Uq2uzdGYYGAvtTCxV+F39lmZRfkoelNTTYqJJ0iXtTfxVRVXnkja2bpU3zqnKGsIA0LvNT14t2n3wQ8QSFvG1g0lF7eCFSfCAF9eN5nfss9+aqH+OFopqDVOQVFYlRXdj8HA45mzLSQbCQAR0cWzzR5AkcXfdpl4du6TmWznV2zU6saw7K84vDxp8b0AgMUbEes5any/SU1RswBUgbQFmNA6GYw4Np9WPGkCm34hjz2Pbb/tvdZ6J2Prx/pfoHdQeRpNsizA0zOxVBKgKL5s2JLepGpE8S0mNdor7N2jpOH8bhM4ccUsA7rb9FAsNg+R61l4HogcvaW9TOVGUUnedZZODLmCbZ7LvSnaMJLzrPojbg+XaRu/URtAInkb1B70nzfNHx3DmEu2WAe7QOoqzVsR699dkvjKk9nYMfaG6PyfH1NZvzfkNUI73g==}"
+          scope: GLOBAL
+          username: "tsegaeyesusGoha"
+      - basicSSHUserPrivateKey:
+          description: "tsegaeyesusGoha github account"
+          id: "8feea8f8-b8c0-4965-b575-e72997e179f0"
+          privateKeySource:
+            directEntry:
+              privateKey: "{AQAAABAAAAGwk/VMGyc3gCKwaVWcB1P2F/Qkz95YlylYZM6P1FpwaJ2vwPhtc3tIBlrx0OEfQodX05lv/8SeoEIVqA2YEDaKLdHDhBsbCVky+EZDyZJTqI+RWa24LqrslOb8jTyzbycV5Fl9t9OcWQHbGw5sZYHuN7JFau2ALMsZDNuHdZ8lCTnSztX6e7kc7fUoMtsek70TOkGAbI7Qw0E00hDmHTM1QIGefNK6V503tPowKS1f3Yzi2nJRMkhKOIVpp1d4e3vS3M/IIIT0w1NalJ9GI2f9g2HU/qUfQzLJ/rProtA2+0iEvIGBWZMpmLrN8eXxGSAtjKAcYwiotBLtTgmqIbdC69PhnkheyJggp0YCYTAi0XXkByHKuQIjqDjdaBpffvk2v2NO6DbF84TTA9gxuF+VXps0KMgXFHWm8Ict5TFoIx7p7lRveLpXTgZLHSYfi+/dOZC2mzStJtLgulusAwI32MhvAoPHVgbLKu0PfG4AvBGaOAEAeCFLuPpDv2o/lttFNl6i69grsHL2OzmeCTd4RrpML+BriVhYQNpA4OHjtQWafCeDAVXDZmzmSCuBVWFSatSL4o+eU0/MyIvPeSo+xA==}"
+          scope: GLOBAL
+          username: "tsegaeyesusGoha"
+      - basicSSHUserPrivateKey:
+          id: "eslpaybill_ssh"
+          privateKeySource:
+            directEntry:
+              privateKey: "{AQAAABAAAAGwrzP0XXLFE4cFsFsvx59tsXp4otxdoX3i9LBNvgksvK2O2F61Tqdv3YFt93/V1zvJdWfK3xdc5rMDUNpdkZEOdGkP2955pnjvVz0m4R35DgADfZqDJlCTWGs1/fJLe4OkuepaqbaIN/Qfyp6Ce4VW2fFTYHoSeOBqam/rayxQJbucRVu8Prh+6YucU02gd44QSBy+udMossJIC+C0vc8LLOpQXYPcDjfAGTcemMhj/DoT7GPROeAXAECX+q9LwyeMZXrjJSoklyvtjeuS1NC98Is6WzVbbdMuhFQxyxvSmfnYmo2zF7u9igq8Bclqea+IDf/iTGa+0SKDyBEhdD/oZIhrjafUm6ZW2XgQ/rUmx14i+875jCayANQKwKwy5XeGC6nlEbTdnd5SnRz5lsdQuntQVRhDNvFi8nKjF/v9A8FIt3LwXdknIykf0vBwoqWipHAlY5cVo7pomblP7plhj7jP2EmjLF2hTmzZQXfURH1C2aoe8MHa3Hk3i014ixOON6Mcamb/dC+/jwdHsOsqL+K148glvD4VpJs1obJ3T9av+YSW5z8B4mWwK/0QTjtfR0SHExxMWcZB9fmaKHAACQ==}"
           scope: GLOBAL
           username: "eslsoftdev2024@gmail.com"
-          usernameSecret: true
-      - string:
+           - string:
           description: "JWT_SECRET_DEV"
           id: "JWT_SECRET_DEV"
           scope: GLOBAL
