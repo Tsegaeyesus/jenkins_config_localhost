@@ -1,26 +1,7 @@
 credentials:
   system:
     domainCredentials:
-    - credentials:
-      - usernamePassword:
-          description: "eslsoftdev"
-          id: "eslsoftdev"
-          password: "{AQAAABAAAAAwdTmXsGXS+5FiQvEcEgLCYJZybFgLGCLeCdFDjX18E77QHzeq7GYkL4w142ascADEo6qL3Pkyhi0S2FkhNiC+uQ==}"
-          scope: GLOBAL
-          username: "eslsoftdev2024@gmail.com"
-          usernameSecret: true
-      - usernamePassword:
-          id: "61027fbd-cabe-4bce-bb69-aae3376b096c"
-          password: "{AQAAABAAAAAQnfOr91877D+CZ5mW5cTzXYWsHwrGAt2LWt2QTAefZMY=}"
-          scope: GLOBAL
-          username: "eslsoftdev2024@gmail.com"
-      - usernamePassword:
-          description: "eslsoftdev1"
-          id: "eslsoftdev1"
-          password: "{AQAAABAAAAAwnKb3HncF0valBVKO1c9Wb98UX59FMLP5qZQaiADgmOFr1o4WzrpoBMSsKsX2073MLOGIUFqLZUCXpLek0VwUCw==}"
-          scope: GLOBAL
-          username: "eslsoftdev2024@gmail.com"
-          usernameSecret: true
+   credentials:
       - basicSSHUserPrivateKey:
           description: "eslsoftdevssh"
           id: "eslsoftdevssh"
@@ -211,6 +192,9 @@ credentials:
           scope: GLOBAL
           secret: "{AQAAABAAAAAgt9iVgelCIiZzPXoblsFEETyIiuSa02R3yqr0xMo4+x8sIV6MUYh+Rt6WEIKj6WG1}"
 jenkins:
+  agentProtocols:
+  - "JNLP4-connect"
+  - "Ping"
   authorizationStrategy:
     loggedInUsersCanDoAnything:
       allowAnonymousRead: false
@@ -218,10 +202,6 @@ jenkins:
     standard:
       excludeClientIPFromCrumb: false
   disableRememberMe: false
-  disabledAdministrativeMonitors:
-  - "jenkins.diagnostics.ControllerExecutorsNoAgents"
-  - "hudson.util.DoubleLaunchChecker"
-  - "hudson.diagnosis.ReverseProxySetupMonitor"
   labelAtoms:
   - name: "built-in"
   markupFormatter: "plainText"
@@ -253,18 +233,20 @@ jenkins:
       enableCaptcha: false
       users:
       - id: "tsegag"
-        name: "Tsegaeyesus"
+        name: "TsegaeyesusDocker"
         properties:
-        - "apiToken"
         - "consoleUrlProvider"
-        - mailer:
-            emailAddress: "tsegaeyesus.goha@gmail.com"
+        - "myView"
         - preferredProvider:
             providerId: "default"
         - theme:
             theme: "noOp"
+        - "timezone"
         - "experimentalFlags"
-  slaveAgentPort: -1
+        - mailer:
+            emailAddress: "tsegaeyesus.goha@gmail.com"
+        - "apiToken"
+  slaveAgentPort: 50000
   updateCenter:
     sites:
     - id: "default"
@@ -296,7 +278,7 @@ security:
     allowedOnAgents: false
     allowedOnController: false
   gitHostKeyVerificationConfiguration:
-    sshHostKeyVerificationStrategy: "acceptFirstConnectionStrategy"
+    sshHostKeyVerificationStrategy: "knownHostsFileVerificationStrategy"
   scriptApproval:
     forceSandbox: false
 unclassified:
@@ -314,7 +296,6 @@ unclassified:
       $PROJECT_NAME - Build # $BUILD_NUMBER - $BUILD_STATUS:
 
       Check console output at $BUILD_URL to view the results.
-    defaultContentType: "text/plain"
     defaultSubject: "$PROJECT_NAME - Build # $BUILD_NUMBER - $BUILD_STATUS!"
     defaultTriggerIds:
     - "hudson.plugins.emailext.plugins.trigger.FailureTrigger"
@@ -334,7 +315,7 @@ unclassified:
   gitHubConfiguration:
     apiRateLimitChecker: ThrottleForNormalize
   gitHubPluginConfig:
-    hookUrl: "http://localhost:8080/github-webhook/"
+    hookUrl: "http://localhost:8085/github-webhook/"
   globalTimeOutConfiguration:
     operations:
     - "abortOperation"
@@ -344,21 +325,17 @@ unclassified:
     checkForBuildAgentErrors: false
     enabled: false
     enforceUrl: false
-    gradleCaptureTaskInputFiles: true
     injectCcudExtension: false
     injectMavenExtension: false
-    mavenCaptureGoalInputFiles: true
   junitTestResultStorage:
     storage: "file"
   location:
     adminAddress: "address not configured yet <nobody@nowhere>"
-    url: "http://localhost:8080/"
+    url: "http://localhost:8085/"
   mailer:
     charset: "UTF-8"
     useSsl: false
     useTls: false
-  mavenModuleSet:
-    localRepository: "default"
   pollSCM:
     pollingThreadCount: 10
   scmGit:
@@ -376,20 +353,8 @@ unclassified:
 tool:
   git:
     installations:
-    - home: "C:\\Program Files\\Git\\bin\\git.exe"
+    - home: "git"
       name: "Default"
-  jdk:
-    installations:
-    - home: "C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.3.9-hotspot"
-      name: "JAVA 21"
-  maven:
-    installations:
-    - name: "jenkins-maven"
-      properties:
-      - installSource:
-          installers:
-          - maven:
-              id: "3.8.8"
   mavenGlobalConfig:
     globalSettingsProvider: "standard"
     settingsProvider: "standard"
